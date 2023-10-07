@@ -53,9 +53,3 @@ char* dec2str(int num){
     result[total_length - 1] = '\0';
     return result;
 }
-
-int main(){
-    int n;
-    cin >>n;
-    cout << dec2str(n)<< endl;
-}
